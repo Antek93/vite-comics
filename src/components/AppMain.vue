@@ -21,18 +21,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container {
-    background-color: black;
-    width: 100%;
-    height: 15vh;
-    color: white;
-    display: flex;
-    align-items: center;
-    div {
-        width: 70%;
-        margin: 0 auto;
-        font-size: 20px;
-        
-    }
-}
+@use "../styles/partials/AppMainAttributes.scss"
 </style>
