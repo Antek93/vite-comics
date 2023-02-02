@@ -1,0 +1,35 @@
+.container {
+    background-color: rgb(49, 173, 255);
+    width: 100%;
+    height: 17vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .boxPictures {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        div {
+           width: calc((100% / 5) - 10px);
+           display: flex;
+           align-items: center;
+           align-content: center;
+           padding: 0px 5px;
+           font-size: 14px;
+           div {
+            width: 78%;
+            text-transform: uppercase;
+           };
+           img {
+            width: 22%;
+           }
+           #specificImg {
+            width: 15%;
+           }
+         }
+    }
+}

@@ -74,46 +74,5 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-.container {
-    width: 100%;
-    padding-top: 10px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 15px;
-    text-transform: uppercase;
-    
-    div:first-child {
-        display: flex;
-        justify-content: flex-start;
-    }
-    div:last-child *div {
-        height: 100px;
-        padding: 0px 2px 0px 2px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    div:last-child *div:hover {
-        border-bottom: 4px solid rgb(0, 106, 255);
-    }
-    div:last-child ul {
-        display: flex;
-        justify-content: flex-end;
-        list-style: none;
-        li {
-            text-decoration: none;
-            padding: 10px;
-
-            a {
-                text-decoration: none;
-                color: rgb(45, 42, 42);
-            }
-            a:hover {
-                color: blue;
-            }
-        }
-    }
-}
+@import "../styles/partials/AppHeadAttributes.scss";
 </style>

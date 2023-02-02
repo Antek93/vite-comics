@@ -2,6 +2,7 @@
 import AppHead from './components/AppHead.vue'; //importare ogni singolo componente che creiamo tramite queste linee di codice
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import AppMerchandise from './components/AppMerchandise.vue';
 
 export default { //questa formula serve ad importante i componenti ed utilizzarli nel mio file
     name: 'App', //Name richiama il nome del file
@@ -16,13 +17,14 @@ export default { //questa formula serve ad importante i componenti ed utilizzarl
     components: { //Qui richiamamo il nome dei file che abbiamo importato
       AppHead,
       AppMain,
-      AppFooter
+      AppFooter,
+      AppMerchandise
     }
 }
 </script>
 
 <template>
-  <div class="mainContainer">
+
     <div>
       <AppHead /> <!--Intestazione - header -->
     </div>
@@ -30,17 +32,16 @@ export default { //questa formula serve ad importante i componenti ed utilizzarl
       <AppMain /> <!--Corpo del sito - main -->
     </div> 
     <div>
+      <AppMerchandise /> <!-- Sezione vendite - merchandise-->
+    </div>
+    <div>
       <AppFooter /> <!--Pié di pagina - footer -->
     </div>
-  </div>
+
 </template>
 
 <style lang="scss">
 @use "./styles/main";
-.mainContainer {
-    width: 70%;
-    margin: 0 auto;
-}
 </style>
 
 
