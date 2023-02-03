@@ -6,7 +6,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 3;
     .boxPictures {
         width: 70%;
         margin: 0 auto;
@@ -24,8 +23,16 @@
            div {
             width: 78%;
             text-transform: uppercase;
-           };
+           }
+           div:hover {
+                cursor: pointer;
+           }
+           a {
+            text-decoration: none;
+            color: white;
+           }
            img {
+        
             width: 22%;
            }
            #specificImg {

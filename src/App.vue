@@ -11,6 +11,7 @@ export default { //questa formula serve ad importante i componenti ed utilizzarl
         return { 
             msg: 'Ciao',
             count: 0,
+            
         }
 
     },
@@ -43,5 +44,4 @@ export default { //questa formula serve ad importante i componenti ed utilizzarl
 <style lang="scss">
 @use "./styles/main";
 </style>
-
 

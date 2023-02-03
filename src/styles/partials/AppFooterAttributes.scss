@@ -1,0 +1,112 @@
+.containerPrincipale {
+    width: 100%;
+    height: 51.5vh;
+        .containerIntermedio {
+            width: 100%;
+            height: 81%;
+            
+            background-image: url('../assets/footer-bg.jpg');
+            background-size: contain;
+            .linksLogo {
+                width: 70%;
+                margin: 0 auto;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                color: white;
+                .links {
+                    width: 35%;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    ul {
+                        list-style: none;
+                    }
+
+                    li a {
+                        text-decoration: none;
+                        color: gray;
+                        font-family:'Times New Roman', Times;
+                        font-size: 12px;
+                    }
+
+                    
+                    li a:hover {
+                        text-decoration: underline;
+                    }
+                    .title {
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        padding-top: 30px;
+                    }
+
+                    .space {
+                        margin-top: 10px;
+                    }
+                
+                }
+                .logo {
+                    width: 75%;
+                    position: relative;
+                    overflow: hidden;
+                    
+                    img {
+                        position: absolute;
+                        width: 60%;
+                        bottom: -16%;
+                        left: 30%
+                        
+                        
+                    }
+                }
+            }
+            
+        }
+
+        .signUp {
+            width: 100%;
+            height: 11.9%;
+            background-color: rgb(42, 42, 42);
+            position: absolute;
+            z-index: 2;
+            .boxadvs {
+                width: 70%;
+                height: 100%;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .now-btn {
+                    width: calc((100% / 2) - 20px);
+
+                    button {
+                        padding: 15px;
+                        color: white;
+                        background-color: rgb(42, 42, 42);
+                        font-size: 15px;
+                        border: 1px solid rgb(0, 149, 255);
+                        margin-left: 10px;
+                    } button:hover {
+                        cursor: pointer;
+                    }
+                }
+
+                .follow-btn {
+                    display: flex;
+                    align-items: center;
+                    margin-right: 10px;
+                    div {
+                        font-size: 18px;
+                        color: rgb(0, 149, 255); ;
+                        padding: 0px 6px;
+                    } img {
+                        color: light gray;
+                        width: 80%;
+                    } div:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }

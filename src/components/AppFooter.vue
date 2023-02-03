@@ -117,78 +117,37 @@ export default {
             </div>
         </div>
         <div class="signUp">
-
+            <div class="boxadvs">
+                <div class="now-btn">
+                    <button>
+                        SIGN-UP NOW!
+                    </button>
+                </div>
+                <div class="follow-btn">
+                    <div>
+                        FOLLOW US
+                    </div>
+                    <div>
+                        <img src="../assets/footer-facebook.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../assets/footer-twitter.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../assets/footer-youtube.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../assets/footer-pinterest.png" alt="">
+                    </div>
+                    <div>
+                        <img src="../assets/footer-periscope.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
-.containerPrincipale {
-    width: 100%;
-    height: 51.5vh;
-        .containerIntermedio {
-            width: 100%;
-            height: 81%;
-            padding-top: 3%;
-            background-image: url('../assets/footer-bg.jpg');
-            background-size: contain;
-            .linksLogo {
-                width: 70%;
-                margin: 0 auto;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                color: white;
-                .links {
-                    width: 35%;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-                    ul {
-                        list-style: none;
-                    }
-
-                    li a {
-                        text-decoration: none;
-                        color: gray;
-                        font-family:'Times New Roman', Times;
-                        font-size: 12px;
-                    }
-
-                    .title {
-                        text-transform: uppercase;
-                        font-size: 15px;
-                    }
-
-                    .space {
-                        margin-top: 10px;
-                    }
-                
-                }
-                .logo {
-                    width: 75%;
-                    position: relative;
-                    overflow: hidden;
-                    
-                    img {
-                        position: absolute;
-                        width: 62%;
-                        top: 0%;
-                        left: 30%
-                        
-                        
-                    }
-                }
-            }
-            
-        }
-
-        .signUp {
-            width: 100%;
-            height: 11.9%;
-            background-color: rgb(42, 42, 42);
-            position: absolute;
-            z-index: 2;
-        }
-    }
+@use "../styles/partials/AppFooterAttributes.scss"
 </style>

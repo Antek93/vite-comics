@@ -17,25 +17,33 @@ export default {
         <div class="boxPictures">
             <div>
                 <img src="../assets/buy-comics-digital-comics.png" alt="">
-                <div>digital comics</div>
+                <div>
+                   <a href="#"> digital comics</a>
+                </div>
             </div>
             <div>
                 <img src="../assets/buy-comics-merchandise.png" alt="">
-                <div>dc merchandise</div>
+                <div>
+                <a href="#">dc merchandise</a>    
+                 </div>
             </div>
             <div>
                 <img src="../assets/buy-comics-subscriptions.png" alt="">
-                <div>subscription</div>
-
+                <div>
+                    <a href="#">subscription</a> 
+                </div>
             </div>
             <div>
                 <img id="specificImg" src="../assets/buy-comics-shop-locator.png" alt="">
-                <div>comic shop locator</div>
+                <div>
+                    <a href="#">comic shop locator</a>
+                </div>
             </div>
             <div>
                 <img src="../assets/buy-dc-power-visa.svg" alt="">
-                <div>dc power visa</div>
-
+                <div>
+                    <a href="#">dc power visa</a>
+                </div>
             </div>
         </div>
     </div>
