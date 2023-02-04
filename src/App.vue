@@ -9,8 +9,6 @@ export default { //questa formula serve ad importante i componenti ed utilizzarl
 
     data () { //In data utilizziamo e richiamiamo gli elementi key che dichiariamo
         return { 
-            msg: 'Ciao',
-            count: 0,
             
         }
 
